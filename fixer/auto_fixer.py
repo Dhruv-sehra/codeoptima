@@ -91,7 +91,7 @@ class AutoFixer:
                 "tokens_used": ai_result.tokens_used
             }
         else:
-            # Fallback to rule‑based fixes
+           
             fixed_code, fixes = self._apply_rule_based_fixes(code, issues)
             return fixed_code, fixes, {
                 "provider": "rule_based",
