@@ -46,9 +46,7 @@ class StaticRuleEngine:
     
     def analyze(self, code: str) -> List[Issue]:
             """Run all registered rules on the code"""
-            
-            # 🚨 THE TRUE GATEKEEPER: Parse before running any rules
-            # If this fails, it automatically throws the SyntaxError back to app.py
+
             import ast
             ast.parse(code) 
             
