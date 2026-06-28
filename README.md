@@ -181,50 +181,64 @@ Whether you're learning Python, reviewing code, or improving production code qua
 <img src="assets/ai-details.png" width="95%">
 </p>
 
-
-
----
-
+<!--  
 ## 🏗️ System Architecture
 
 ```mermaid
 flowchart TD
 
-A[Python Code] --> B[Input Handler]
+A[Python Code] --> 
+<!-- B[Input Handler]
 
-B --> C[Syntax Validation]
+B --> 
+<!--C[Syntax Validation]
 
-C --> D[AST Parser]
+C --> 
+<!--D[AST Parser]
 
-D --> E[Static Rule Analyzer]
+D --> 
+<!--E[Static Rule Analyzer]
 
-D --> F[Complexity Analyzer]
+D --> 
+<!--F[Complexity Analyzer]
 
-E --> G[Issue Detection]
+E --> 
+<!--G[Issue Detection]
 
-F --> H[Complexity Metrics]
+F --> 
+<!--H[Complexity Metrics]
 
-G --> I[Code Scoring]
+G --> 
+<!--I[Code Scoring]
 
-H --> I
+H --> 
+<!--I
 
-I --> J[Quality Dashboard]
+I --> 
+<!--J[Quality Dashboard]
 
-J --> K{Optimization}
+J --> 
+<!--K{Optimization}
 
-K -->|Rule Based| L[Auto Fix]
+K -->
+<!--|Rule Based| L[Auto Fix]
 
-K -->|AI| M[Groq Llama 3.3]
+K -->
+<!--|AI| M[Groq Llama 3.3]
 
-L --> N[Improved Code]
+L --> 
+<!--N[Improved Code]
 
-M --> N
+M --> 
+<!--N
 
-N --> O[Comparison]
+N --> 
+<!--O[Comparison]
 
-O --> P[Download]
+O --> 
+<!--P[Download]
 ```
-
+ -->
 
 ---
 
