@@ -6,10 +6,8 @@ from dataclasses import dataclass, field
 import difflib
 import time
 
-# Relative import: ai_handler.py is in the same directory (fixer/)
 from .ai_handler import groq_handler
 
-# Import from sibling folders (assuming analyzer is at code/analyzer)
 from analyzer.static_rules import Issue, Category, Severity
 
 
