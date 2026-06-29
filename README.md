@@ -24,6 +24,18 @@
 
 </p>
 
+<p align="center">
+
+<a href="https://codeoptima.streamlit.app">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Open-success?style=for-the-badge">
+</a>
+
+<a href="https://github.com/Dhruv-sehra/codeoptima">
+<img src="https://img.shields.io/badge/📂_Source_Code-GitHub-black?style=for-the-badge">
+</a>
+
+</p>
+
 ---
 
 ## 🌟 Overview
